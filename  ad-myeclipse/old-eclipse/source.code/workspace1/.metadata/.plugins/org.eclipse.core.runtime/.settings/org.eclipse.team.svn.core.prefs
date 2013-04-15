@@ -1,0 +1,4 @@
+eclipse.preferences.version=1
+externalMigrateFromAuthorizationDatabase/isMigrated=true
+migrateFromAuthorizationDatabase/isMigrated=true
+repositories/90f727405d9700121a02ceb5c8a3e29f=90f727405d9700121a02ceb5c8a3e29f;https\://ad-eclipse1.googlecode.com/svn/;https\://ad-eclipse1.googlecode.com/svn/trunk/;branches;tags;trunk;true;598b508b-a5ce-80ad-7e6a-6d1915ff3fb7;https\://ad-eclipse1.googlecode.com/svn;;false;<https\://ad-eclipse1.googlecode.com\:443> Google Code Subversion Repository;;0

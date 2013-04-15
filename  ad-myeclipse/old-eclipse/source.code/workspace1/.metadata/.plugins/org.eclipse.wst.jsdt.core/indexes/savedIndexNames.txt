@@ -1,0 +1,6 @@
+INDEX VERSION 1.122+E:\Work-E\Adhir\Work\Ad.Eclipse\source.code\workspace1\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+1789104917.index
+3494759330.index
+2769613807.index
+828342957.index
+1043479888.index

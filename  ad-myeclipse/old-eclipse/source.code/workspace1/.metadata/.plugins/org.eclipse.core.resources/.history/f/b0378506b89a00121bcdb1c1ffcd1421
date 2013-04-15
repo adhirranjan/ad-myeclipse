@@ -1,0 +1,5 @@
+package org.apache.geronimo.samples.jaxws.rest;
+
+public class ConverterService {
+
+}

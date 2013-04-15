@@ -1,0 +1,6 @@
+#Mon Apr 01 11:20:58 IST 2013
+__DEFAULT__=false
+org.eclipse.sdk.Eclipse.master=true
+org.eclipse.sdk.Google.master=true
+org.eclipse.help.ui.localSearch.master=true
+expression=android
