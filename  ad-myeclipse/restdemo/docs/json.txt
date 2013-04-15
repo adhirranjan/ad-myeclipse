@@ -1,0 +1,8 @@
+===============================================================================================
+http://com40:8080/restdemo/resources/profile/authenticate/a@a.com/asasapwd/nameasasasasasasas
+{'user_id':'1', 'name':'a'}
+{'error':'Invalid user or password.'}
+===============================================================================================
+http://com40:8080/restdemo/resources/profile/register/b@b.com/bpwd/b
+{'status':'ok'}
+{'error':'Already Registered.'}
