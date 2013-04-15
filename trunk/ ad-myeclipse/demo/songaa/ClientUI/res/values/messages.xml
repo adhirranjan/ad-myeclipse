@@ -1,0 +1,5 @@
+<resources>
+    <string name="msg_login_invalid_email">Invalid Email Id.</string>
+    <string name="msg_login_blank_email">Email can not be blank.</string>
+    <string name="msg_login_blank_password">Password can not be blank.</string>    
+</resources>
