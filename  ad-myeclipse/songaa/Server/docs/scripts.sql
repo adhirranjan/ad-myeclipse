@@ -53,5 +53,3 @@ CREATE TABLE  `comment` (
 );
 #
 SET FOREIGN_KEY_CHECKS = 1;
-#insert dummy record
-insert into users(email, pwd, username) values('a@a.com','apwd', 'a');
