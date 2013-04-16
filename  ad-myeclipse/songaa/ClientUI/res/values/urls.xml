@@ -1,0 +1,5 @@
+<resources>
+    <string name="url_login" formatted="false">http://10.0.2.2:8080/Server/resources/profile/authenticate/%s/%s/%s</string>
+    <string name="url_register" formatted="false">http://10.0.2.2:8080/Server/resources/profile/register/%s/%s/%s</string>
+    <string name="url_fav" formatted="false">http://localhost:8080/Server/resources/song/fav/%s</string>        
+</resources>
