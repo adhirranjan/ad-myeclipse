@@ -1,8 +1,11 @@
 ===============================================================================================
-http://com40:8080/Server/resources/profile/authenticate/a@a.com/asasapwd/nameasasasasasasas
+http://localhost:8080/Server/resources/profile/authenticate/a@a.com/asasapwd/nameasasasasasasas
 {'user_id':'1', 'name':'a'}
 {'error':'Invalid user or password.'}
 ===============================================================================================
-http://com40:8080/restdemo/resources/profile/register/b@b.com/bpwd/b
+http://localhost:8080/Server/resources/profile/register/b@b.com/bpwd/b
 {'status':'ok'}
 {'error':'Already Registered.'}
+===============================================================================================
+http://localhost:8080/Server/resources/song/fav/1
+http://10.0.2.2:8080/Server/resources/song/fav/1
