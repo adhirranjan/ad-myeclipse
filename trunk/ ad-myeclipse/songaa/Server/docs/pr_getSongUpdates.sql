@@ -5,8 +5,11 @@ CREATE PROCEDURE pr_getSongUpdates(
 	, out p_out_error VARCHAR(255) 	
 )
 	TOP: BEGIN		
-		set p_out_error = '';
-		select * from songs where user_id_fk <> 2;
+		#song_url, image_url, user name, song desc, time stamp
+		select s.song_url, u.username, coalesce(s.description, '') description, s.image_url, s.ts
+		from songs  s
+		inner join users u on u.user_id = s.user_id_fk
+		where user_id_fk <> p_userid;
     END $$
  DELIMITER ;
 
@@ -17,7 +20,7 @@ call pr_getSongUpdates(1, @pout);
 select 1, @pout;
  */
 set @pout  = '';
-call pr_getSongUpdates(4, @pout);
-select @pout  ;
+call pr_getSongUpdates(3, @pout);
+#select @pout ;
 
 
