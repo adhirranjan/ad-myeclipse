@@ -12,7 +12,12 @@ public class Song {
 	@GET
 	@Path("fav/{user_id}")
 	public String getFavorites(@PathParam("user_id") String user_id) {
-		//return "{'x':'y'}";
 		return SongBllc.getFavorites(user_id);
+	}
+	
+	@GET
+	@Path("updates/{user_id}")
+	public String getSongUpdates(@PathParam("user_id") String user_id) {		
+		return SongBllc.getSongUpdates(user_id);
 	}
 }
