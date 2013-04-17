@@ -30,7 +30,7 @@ public class DbContext {
 			sb.append("{table:{rows:[");
 			while (rs.next()) {		
 				sb.append("{");
-				for(int i=1;i<rsMeta.getColumnCount();i++){
+				for(int i=1;i<=rsMeta.getColumnCount();i++){
 					sb.append(String.format("'%s':'%s',", rsMeta.getColumnName(i),rs.getString(rsMeta.getColumnName(i)) ));
 				}
 				if(sb.toString().lastIndexOf(",") == sb.length()-1){
