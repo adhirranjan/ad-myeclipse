@@ -4,4 +4,6 @@
     <string name="menu_settings">Settings</string>
     <string name="title_activity_main">MainActivity</string>
  	<string name="forget_password"><a href="http://www.google.com">Forget Password</a></string>
+ 	
+ 	<string name="testsong_20_sec">http://www.hrupin.com/wp-content/uploads/mp3/testsong_20_sec.mp3</string>
 </resources>
