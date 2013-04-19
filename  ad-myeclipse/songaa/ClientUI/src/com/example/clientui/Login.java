@@ -44,7 +44,22 @@ public class Login extends Activity {
 
 		initView();
 		registerEvents();
+	}
 
+	private void initView() {
+		forgetPassword = (TextView) findViewById(R.id.txtFrogetPassword);
+		txtLoginEmail = (EditText) findViewById(R.id.txtLoginMailId);
+		txtLoginPassword = (EditText) findViewById(R.id.txtLoginPassword);
+		btnLogIn = (Button) findViewById(R.id.btnLogIn);
+
+		forgetPassword.setMovementMethod(LinkMovementMethod.getInstance());
+
+		txtRegisterName = (EditText) findViewById(R.id.txtRegisterName);
+		txtRegisterMailId = (EditText) findViewById(R.id.txtRegisterMailId);
+		txtRegisterMailIdReenter = (EditText) findViewById(R.id.txtRegisterMailIdReenter);
+		txtRegisterPassword = (EditText) findViewById(R.id.txtRegisterPassword);
+
+		btnRegister = (Button) findViewById(R.id.btnRegister);
 	}
 
 	private void registerEvents() {
@@ -62,22 +77,6 @@ public class Login extends Activity {
 				registerClicked(v);
 			}
 		});
-	}
-
-	private void initView() {
-		forgetPassword = (TextView) findViewById(R.id.txtFrogetPassword);
-		txtLoginEmail = (EditText) findViewById(R.id.txtLoginMailId);
-		txtLoginPassword = (EditText) findViewById(R.id.txtLoginPassword);
-		btnLogIn = (Button) findViewById(R.id.btnLogIn);
-
-		forgetPassword.setMovementMethod(LinkMovementMethod.getInstance());
-
-		txtRegisterName = (EditText) findViewById(R.id.txtRegisterName);
-		txtRegisterMailId = (EditText) findViewById(R.id.txtRegisterMailId);
-		txtRegisterMailIdReenter = (EditText) findViewById(R.id.txtRegisterMailIdReenter);
-		txtRegisterPassword = (EditText) findViewById(R.id.txtRegisterPassword);
-
-		btnRegister = (Button) findViewById(R.id.btnRegister);
 	}
 
 	public void loginClicked(View v) {

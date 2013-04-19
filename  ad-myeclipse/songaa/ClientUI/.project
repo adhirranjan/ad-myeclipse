@@ -3,6 +3,7 @@
 	<name>ClientUI</name>
 	<comment></comment>
 	<projects>
+		<project>ClinetLibraries</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

@@ -24,14 +24,14 @@ insert  into `songs`(`song_id`,`song_url`,`description`,`image_url`,`user_id_fk`
 ,(10,NULL,NULL,NULL,3,'2013-04-13 17:56:52');
 
 #
-insert  into `favorite`(`favorite_id`,`user_id_fk`,`song_id_fk`,`ts`) values (1,1,1,'2013-04-13 18:15:13');
-insert  into `favorite`(`favorite_id`,`user_id_fk`,`song_id_fk`,`ts`) values (2,1,2,'2013-04-13 18:15:13');
-insert  into `favorite`(`favorite_id`,`user_id_fk`,`song_id_fk`,`ts`) values (3,1,3,'2013-04-13 18:15:13');
-insert  into `favorite`(`favorite_id`,`user_id_fk`,`song_id_fk`,`ts`) values (4,1,4,'2013-04-13 18:15:13');
-insert  into `favorite`(`favorite_id`,`user_id_fk`,`song_id_fk`,`ts`) values (5,1,5,'2013-04-13 18:15:13');
-insert  into `favorite`(`favorite_id`,`user_id_fk`,`song_id_fk`,`ts`) values (6,1,6,'2013-04-13 18:15:13');
-insert  into `favorite`(`favorite_id`,`user_id_fk`,`song_id_fk`,`ts`) values (7,1,7,'2013-04-13 18:15:13');
-insert  into `favorite`(`favorite_id`,`user_id_fk`,`song_id_fk`,`ts`) values (8,1,8,'2013-04-13 18:15:13');
-insert  into `favorite`(`favorite_id`,`user_id_fk`,`song_id_fk`,`ts`) values (9,1,9,'2013-04-13 18:15:13');
+insert  into `favorites`(`favorite_id`,`user_id_fk`,`song_id_fk`,`ts`) values (1,1,1,'2013-04-13 18:15:13');
+insert  into `favorites`(`favorite_id`,`user_id_fk`,`song_id_fk`,`ts`) values (2,1,2,'2013-04-13 18:15:13');
+insert  into `favorites`(`favorite_id`,`user_id_fk`,`song_id_fk`,`ts`) values (3,1,3,'2013-04-13 18:15:13');
+insert  into `favorites`(`favorite_id`,`user_id_fk`,`song_id_fk`,`ts`) values (4,1,4,'2013-04-13 18:15:13');
+insert  into `favorites`(`favorite_id`,`user_id_fk`,`song_id_fk`,`ts`) values (5,1,5,'2013-04-13 18:15:13');
+insert  into `favorites`(`favorite_id`,`user_id_fk`,`song_id_fk`,`ts`) values (6,1,6,'2013-04-13 18:15:13');
+insert  into `favorites`(`favorite_id`,`user_id_fk`,`song_id_fk`,`ts`) values (7,1,7,'2013-04-13 18:15:13');
+insert  into `favorites`(`favorite_id`,`user_id_fk`,`song_id_fk`,`ts`) values (8,1,8,'2013-04-13 18:15:13');
+insert  into `favorites`(`favorite_id`,`user_id_fk`,`song_id_fk`,`ts`) values (9,1,9,'2013-04-13 18:15:13');
 #
-insert  into `love`(`love_id`,`user_id_fk`,`song_id_fk`,`ts`) values (1,1,2,'2013-04-13 18:18:02');
+insert  into `loves`(`love_id`,`user_id_fk`,`song_id_fk`,`ts`) values (1,1,2,'2013-04-13 18:18:02');

@@ -20,9 +20,9 @@ CREATE TABLE  `songs` (
 	ts TIMESTAMP DEFAULT CURRENT_TIMESTAMP, 
 	FOREIGN KEY (user_id_fk) REFERENCES users(user_id)
 );
-#favorite
-drop table if exists favorite;
-CREATE TABLE  `favorite` (
+#favorites
+drop table if exists favorites;
+CREATE TABLE  `favorites` (
 	favorite_id INT NOT NULL primary key AUTO_INCREMENT ,	
 	user_id_fk int, 
 	song_id_fk int, 
@@ -30,9 +30,9 @@ CREATE TABLE  `favorite` (
 	FOREIGN KEY (user_id_fk) REFERENCES users(user_id),
 	FOREIGN KEY (song_id_fk) REFERENCES songs(song_id)
 );
-#love
-drop table if exists love;
-CREATE TABLE  `love` (
+#loves
+drop table if exists loves;
+CREATE TABLE  `loves` (
 	love_id INT NOT NULL primary key AUTO_INCREMENT ,	
 	user_id_fk int, 
 	song_id_fk int, 
@@ -40,9 +40,9 @@ CREATE TABLE  `love` (
 	FOREIGN KEY (user_id_fk) REFERENCES users(user_id),
 	FOREIGN KEY (song_id_fk) REFERENCES songs(song_id)
 );
-#comment
-drop table if exists comment;
-CREATE TABLE  `comment` (
+#comments
+drop table if exists comments;
+CREATE TABLE  `comments` (
 	comment_id INT NOT NULL primary key AUTO_INCREMENT ,	
 	comment VARCHAR(1000) NULL,
 	user_id_fk int, 

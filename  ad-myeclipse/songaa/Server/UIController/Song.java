@@ -18,6 +18,6 @@ public class Song {
 	@GET
 	@Path("updates/{user_id}")
 	public String getSongUpdates(@PathParam("user_id") String user_id) {		
-		return SongBllc.getSongUpdates(user_id);
+		return SongBllc.getUpdates(user_id);
 	}
 }

@@ -11,8 +11,8 @@ public class SongBllc {
 			Connection con = DbContext.getConnection();
 
 			CallableStatement cs = null;
-			cs = con.prepareCall("{call pr_myfav(?,?)}");
-			cs.setString("p_userid", user_id); //
+			cs = con.prepareCall("{call pr_getFavorites(?,?)}");
+			cs.setString("p_user_id", user_id); //
 			cs.registerOutParameter("p_out_error", Types.VARCHAR);
 
 			ResultSet rs = cs.executeQuery();
@@ -38,14 +38,14 @@ public class SongBllc {
 		return res;
 	}
 
-	public static String getSongUpdates(String user_id) {
+	public static String getUpdates(String user_id) {
 		String res = "";
 		try {
 			Connection con = DbContext.getConnection();
 
 			CallableStatement cs = null;
-			cs = con.prepareCall("{call pr_getSongUpdates(?,?)}");
-			cs.setString("p_userid", user_id); //
+			cs = con.prepareCall("{call pr_getUpdates(?,?)}");
+			cs.setString("p_user_id", user_id); //
 			cs.registerOutParameter("p_out_error", Types.VARCHAR);
 
 			ResultSet rs = cs.executeQuery();

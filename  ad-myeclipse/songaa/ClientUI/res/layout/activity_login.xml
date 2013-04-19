@@ -4,6 +4,16 @@
     android:layout_height="match_parent"
     android:orientation="vertical" >
 
+<!--     <LinearLayout -->
+<!--         android:layout_width="match_parent" -->
+<!--         android:layout_height="wrap_content"  -->
+<!--         android:orientation="horizontal"        > -->
+<!--         <include -->
+<!--             android:layout_width="wrap_content" -->
+<!--             android:layout_height="wrap_content" -->
+<!--             layout="@layout/activity_sub_gloabl_nav" /> -->
+<!--     </LinearLayout> -->
+
     <TextView
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
@@ -18,7 +28,8 @@
         android:ems="10"
         android:hint="Email Id"
         android:inputType="textEmailAddress" >
-        <requestFocus />
+
+        <requestFocus />
     </EditText>
 
     <EditText
@@ -57,10 +68,10 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="Name"
-        android:inputType="textEmailAddress" />
+        android:inputType="text" />
 
     <EditText
-        android:id="@+id/registerMailId"
+        android:id="@+id/txtRegisterMailId"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
